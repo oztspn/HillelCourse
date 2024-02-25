@@ -1,0 +1,47 @@
+body {
+    background-color: #caa8f5;
+    font-family: Arial, sans-serif;
+}
+#notes-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.note {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d8d8f6;
+    border: 1px solid #ddd;
+}
+.note button {
+    margin-left: 10px;
+}
+.note-actions {
+    margin-top: 5px;
+}
+.btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #7393dc;
+    color: #fff;
+    border: none;
+}
+.btn-danger {
+    background-color: #545ebf;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+.btn-edit {
+    background-color: #7393dc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 15px;
+
+}
